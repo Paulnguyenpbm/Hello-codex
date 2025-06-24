@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+#previewContainer {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
