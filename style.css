@@ -17,13 +17,7 @@ label {
 
 #previewContainer {
     position: relative;
-    height: 300px;
+    height: 400px;
+    width: 100%;
     border: 1px solid #ccc;
-}
-
-.step {
-    position: absolute;
-    background-color: #eee;
-    border: 1px solid #999;
-    box-sizing: border-box;
 }
