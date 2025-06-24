@@ -19,6 +19,8 @@ label {
     position: relative;
     height: 300px;
     border: 1px solid #ccc;
+    perspective: 800px;
+    transform: rotateX(20deg);
 }
 
 .step {

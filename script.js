@@ -20,10 +20,11 @@ document.addEventListener('DOMContentLoaded', function () {
             step.style.height = stepHeight + 'px';
             step.style.bottom = (i * stepHeight) + 'px';
             step.style.left = (i * stepDepth) + 'px';
+            step.style.transform = 'translateZ(' + (i * -stepDepth) + 'px)';
             preview.appendChild(step);
         }
 
-        preview.style.height = (steps * stepHeight) + 'px';
+        preview.style.height = (steps * stepHeight + stepDepth) + 'px';
         preview.style.width = (steps * stepDepth + width) + 'px';
     }
 
