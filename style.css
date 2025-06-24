@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+#previewContainer {
+    position: relative;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+
+.step {
+    position: absolute;
+    background-color: #eee;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
